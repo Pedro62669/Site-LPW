@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@keyframes borda {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+	background: linear-gradient(45deg, black,rgb(50, 50, 50),rgb(80, 80, 80));
+	background-size: 400% 400%;
+	animation: borda 10s ease infinite;
+    margin: 0px; 
+}
+
+h1{
+    background-image: radial-gradient(circle, rgb(48, 48, 48) 40%,rgb(255, 0, 255),rgb(0, 247, 255) 100%);
+    font-style: italic;
+    color: rgb(255, 0, 255);
+    text-align: center;
+    font-size: 125px;
+    text-shadow: 9px 4px rgb(0, 247, 255);
+    margin-top: 0px;
+}
+h2 {
+    text-align: center;
+    color: rgb(255, 0, 255);
+    font-size: 35px;
+}
+h3 {
+    font-size: 25px;
+    color: rgb(255, 0, 255);
+    margin-left: 5px;
+}
+p {
+    color: rgb(255, 0, 255);
+    font-size: 20px;
+}
+.poster img{
+    border: 1px solid rgb(255, 0, 255);
+    margin: 1px
+}
+.poster:hover img {
+    filter: blur(10px);
+    transform: scale(0.9);
+}
+.poster img:hover {
+    filter: blur(0px);
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px rgb(0, 247, 255);
+    opacity: 1;    
+}
+.musica {
+    text-align: right;
+    margin-left: 5px;
+}
+iframe {
+    text-align: center;
+}
+.links a{
+    font-weight: 500;
+    color: rgba(0, 247, 255);
+    text-decoration: none;
+    border: 5px solid;
+    border-radius: 20px;
+    background-image: linear-gradient(20deg, rgb(255, 0, 255, 0.651),rgb(58, 58, 58) 50%);
+    border-left-color: rgb(255, 0, 255);
+    border-bottom-color: rgb(255, 0, 255);
+    border-top-color: rgb(68, 68, 68);
+    border-right-color: rgb(68, 68, 68);
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 5px;
+}
+#in{
+    color: white;
+    border-bottom-color: rgb(255, 136, 0);
+    border-left-color: rgb(255, 136, 0);
+    background-image: linear-gradient(20deg, rgb(255, 136, 0),rgb(58, 58, 58) 50%);
+}
+#yt {
+    color: white;
+    border-bottom-color: red;
+    border-left-color: red;
+    background-image: linear-gradient(20deg, rgb(255, 0, 0),rgb(58, 58, 58) 50%);
+} 
+#tw{
+    color: white;
+    border-bottom-color: rgb(145, 71, 255);
+    border-left-color: rgb(145, 71, 255);
+    background-image: linear-gradient(20deg, rgb(145, 71, 255),rgb(58, 58, 58) 50%);
+}
+#tt{
+    color: white;
+    border-bottom-color: rgb(26, 145, 218);
+    border-left-color: rgb(26, 145, 218);
+    background-image: linear-gradient(20deg, rgb(26, 145, 218),rgb(58, 58, 58) 50%);
+}
+#yt:hover{
+    box-shadow: 2px 2px 10px red;
+    font-size: 19px;
+    background-image: linear-gradient(20deg, rgb(165, 0, 0), red)
+}
+#tw:hover{
+    box-shadow: 2px 2px 10px rgb(145, 71, 255);
+    font-size: 19px;
+    background-image: linear-gradient(20deg, rgb(105, 51, 185),rgb(145, 71, 255));
+}
+#in:hover{
+    box-shadow: 2px 2px 10px rgb(255, 136, 0);
+    font-size: 19px;
+    background-image: linear-gradient(20deg, rgb(155, 83, 0),rgb(255, 136, 0));
+}
+#tt:hover {
+    box-shadow: 2px 2px 10px rgb(26, 145, 218);
+    font-size: 19px;
+    background-image: linear-gradient(20deg, rgb(15, 84, 128),rgb(26, 145, 218));
+}
+.ot:hover {
+    box-shadow: 2px 2px 10px rgb(0, 247, 255);
+    font-size: 19px;
+    background-image: linear-gradient(20deg, rgb(136, 0, 136),rgb(255, 0, 255));
+}
+.poster {
+    text-align: center;   
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    background-color: black;
+    padding: 10px;
+}
+
+section {
+    padding: 10px;
+    border-radius: 50px;
+    background: linear-gradient(-45deg, rgb(255, 0, 255), rgb(0, 247, 255));
+	background-size: 400% 400%;
+	animation: borda 3s ease infinite;
+}
+
+#ok {
+    display: block;
+    margin: -200px 50px auto auto;
+}
